@@ -59,3 +59,9 @@ function miFuncion() {
   }
   
   miFuncion();
+
+  function miFuncion3() {
+    return 'cadena de texto';
+  }
+  
+  let valorRetornado = miFuncion3();
