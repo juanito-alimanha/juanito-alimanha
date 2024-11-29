@@ -1,0 +1,24 @@
+/*comentarios*/
+
+/*SELECTORES*/
+/*elemento*/
+/*Desafio */
+
+*{background-color: palevioletred;
+    box-sizing: border-box;
+}
+
+/* clase */ 
+.caja-grande {
+    border: 20px solid blue;
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+
+}
+.caja-chiquita {
+    border:20px solid rebeccapurple;
+    width: 350px;
+    height: 350px;
+    background-color: grey;
+}

@@ -1,6 +1,6 @@
 //DESAFIOS//
 
-/* Este archivo tiene como fnalidad almacenar 
+/* Este archivo tiene como finalidad almacenar 
 los desafios de clase*/
 
 /*1. Crear una variable y asignarle su nombre, crear una constante y asignarle su
@@ -51,14 +51,22 @@ presentacion('Alberto','Gutierrez');*/
 el nombre completo, primero el apellido y luego el nombre.*/
 /*
 function presentacion (nombre, apellido){
-return
-console.log(`Su nombre es ${nombre} ${apellido} `);
+return ` ${nombre} ${apellido} `;
 }
-let valorRetornado = presentacion
-presentacion('Alberto','Gutierrez');
-*/
+let valorRetornado = presentacion ('Alberto','Gutierrez');
+let valorDevuelto = presentacion('Juan','Aguirre');
+console.log(valorRetornado);
+console.log(valorDevuelto);*/
 
-// Desafio #6
+/* Desafio #6 crear una funcion que recibacuatro parametros, un nombre, una prenda,
+un color y una cantidad y retorne pepita tiene 2 camisas de color azul.*/
+/*
+function ropa (nombre, prenda, cantidad, color){
+  return ` ${nombre} tiene ${prenda} ${cantidad} de color ${color} `;
+  }
+  let valorRetornado = ropa ('Pepita','2','camisas','azul');
+
+  console.log(valorRetornado);*/
 
 
 // Desafio #7
