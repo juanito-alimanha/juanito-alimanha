@@ -1,0 +1,15 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+p {
+    background-color: yellow;
+}
+
+/* id */
+#intro{
+    background-color: black;
+    color: yellow;
+}
+/* clase */

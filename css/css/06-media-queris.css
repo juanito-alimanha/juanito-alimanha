@@ -1,0 +1,30 @@
+.phone{
+background-color: aqua;
+
+}
+.tablet{
+background-color: aqua;
+display: none;
+}
+.computer{
+background-color: aqua;
+display: none;
+}
+
+/*MEDIDA QUERI*/
+
+@media scree and (min-width: 780px){
+    .phone{
+        background-color: aqua;
+        display: none;
+        }
+        .tablet{
+        background-color: aqua;
+        display: none;
+        }
+        .computer{
+        background-color: aqua;
+        display: none;
+        }
+}
+    
