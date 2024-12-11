@@ -10,49 +10,52 @@
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  .tabla-madre {
-    border: 2px solid purple;
+  header,
+  nav,
+  main,
+  aside,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header,
+  nav,
+  footer {
     width: 100%;
   }
   
-  .header,
-  .nav,
-  .main,
-  .aside,
-  .footer {
-    text-align: center;
+  main,
+  aside {
+    height: 336px;
   }
   
-  .header {
+  header {
     border: 2px solid green;
     height: 100px;
   }
   
-  .nav {
+  nav {
     border: 2px solid orangered;
     height: 42px;
   }
   
-  .tabla-hija {
-    border: 2px solid aqua;
-    width: 100%;
-  }
-  
-  .main {
+  main {
     border: 2px solid blue;
     width: 75%;
-    height: 310px;
   }
   
-  .aside {
+  aside {
     border: 2px solid red;
     width: 25%;
-    height: 310px;
   }
   
-  .footer {
+  footer {
     border: 2px solid brown;
     height: 30px;
   }

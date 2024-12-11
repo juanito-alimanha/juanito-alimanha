@@ -1,9 +1,9 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-}
-
-body{
+  }
+  
+  body {
     border: 2px solid black;
     width: 1024px;
     height: 512px;
@@ -11,34 +11,40 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
-}
-header{
+  }
+  
+  header {
     border: 2px solid green;
     height: 100px;
     line-height: 100px;
-}
-nav{
-    border: 2px solid pink;
+  }
+  
+  nav {
+    border: 2px solid orangered;
     height: 42px;
-}
-
-main,
-aside{
+    line-height: 42px;
+  }
+  
+  main,
+  aside {
     height: 336px;
+    line-height: 336px;
     float: left;
-}
-main{
+  }
+  
+  main {
     border: 2px solid blue;
     width: 75%;
- 
-}
-aside{
-    border: 2px solid yellowgreen;
-    width: 25%;
-}
-footer{
+  }
+  
+  aside {
     border: 2px solid red;
+    width: 25%;
+  }
+  
+  footer {
+    border: 2px solid brown;
     height: 30px;
+    line-height: 30px;
     clear: both;
-}
+  }
